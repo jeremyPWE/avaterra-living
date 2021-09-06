@@ -9,7 +9,7 @@ import Footer from "../../components/Footer";
 import Sidebar from "../../components/Sidebar";
 import Collectionbanner from "../../components/Collectionbanner";
 
-function one() {
+function One() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -282,4 +282,4 @@ function one() {
     </div>
   );
 }
-export default one;
+export default One;

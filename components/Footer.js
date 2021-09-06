@@ -31,6 +31,7 @@ const Footer = ({ isFoot1Open, isFoot2Open, toggleFoot1, toggleFoot2 }) => {
                   className="block p-3 pl-8 border-b border-brown-Default"
                   href="https://www.instagram.com/avaterraliving/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Instagram
                 </a>
@@ -129,6 +130,7 @@ const Footer = ({ isFoot1Open, isFoot2Open, toggleFoot1, toggleFoot2 }) => {
                       <a
                         href="https://www.instagram.com/avaterraliving/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Instagram
                       </a>

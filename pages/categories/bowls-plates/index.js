@@ -7,7 +7,7 @@ import { useState } from "react";
 import Categorybar from "../../../components/Categorybar";
 import Item from "../../../components/Item";
 
-function bowls_plates() {
+function Bowls_plates() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -114,4 +114,4 @@ function bowls_plates() {
   );
 }
 
-export default bowls_plates;
+export default Bowls_plates;

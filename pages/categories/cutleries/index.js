@@ -7,7 +7,7 @@ import { useState } from "react";
 import Categorybar from "../../../components/Categorybar";
 import Item from "../../../components/Item";
 
-function cutleries() {
+function Cutleries() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -117,4 +117,4 @@ function cutleries() {
   );
 }
 
-export default cutleries;
+export default Cutleries;

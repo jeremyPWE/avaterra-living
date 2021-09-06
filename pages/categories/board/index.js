@@ -7,7 +7,7 @@ import { useState } from "react";
 import Categorybar from "../../../components/Categorybar";
 import Item from "../../../components/Item";
 
-function board() {
+function Board() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -114,4 +114,4 @@ function board() {
   );
 }
 
-export default board;
+export default Board;

@@ -6,7 +6,7 @@ import Aboutbanner from "../components/Aboutbanner";
 import { useState } from "react";
 import Image from "next/image";
 
-function about() {
+function About() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -146,4 +146,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;

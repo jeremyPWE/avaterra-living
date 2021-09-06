@@ -7,7 +7,7 @@ import { useState } from "react";
 import Categorybar from "../../../components/Categorybar";
 import Item from "../../../components/Item";
 
-function utensils() {
+function Utensils() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -114,4 +114,4 @@ function utensils() {
   );
 }
 
-export default utensils;
+export default Utensils;

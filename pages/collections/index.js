@@ -7,7 +7,7 @@ import { useState } from "react";
 import Categorybar from "../../components/Categorybar";
 import Item from "../../components/Item";
 
-function collections({
+function Collections({
   toggleCat_board,
   toggleCat_bowl,
   toggleCat_cut,
@@ -86,4 +86,4 @@ function collections({
   );
 }
 
-export default collections;
+export default Collections;
