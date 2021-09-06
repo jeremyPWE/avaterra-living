@@ -69,29 +69,32 @@ export default function Home() {
     setIsCat_boardOpen(false);
   };
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Head>
         <title>Avaterra Living</title>
         <meta name="description" content="Avaterra Living" />
         <link rel="icon" href="/images/avaterra-icon.png" />
       </Head>
-      <Navbar toggle={toggle} />
-      <Sidebar
-        isOpen={isOpen}
-        toggle={toggle}
-        isSubOpen={isSubOpen}
-        toggleSub={toggleSub}
-        toggleCat_board={toggleCat_board}
-        toggleCat_bowl={toggleCat_bowl}
-        toggleCat_cut={toggleCat_cut}
-        toggleCat_din={toggleCat_din}
-        toggleCat_uten={toggleCat_uten}
-      />
-      <Hero />
-      <Showcase />
-      <Banner />
-      <Misi />
-      <Contact />
+      <div className="flex flex-col flex-grow">
+        <Navbar toggle={toggle} />
+        <Sidebar
+          isOpen={isOpen}
+          toggle={toggle}
+          isSubOpen={isSubOpen}
+          toggleSub={toggleSub}
+          toggleCat_board={toggleCat_board}
+          toggleCat_bowl={toggleCat_bowl}
+          toggleCat_cut={toggleCat_cut}
+          toggleCat_din={toggleCat_din}
+          toggleCat_uten={toggleCat_uten}
+        />
+        <Hero />
+        <Showcase />
+        <Banner />
+        <Misi />
+        <Contact />
+      </div>
+
       <Footer
         isFoot1Open={isFoot1Open}
         toggleFoot1={toggleFoot1}
