@@ -46,6 +46,16 @@ const Footer = ({ isFoot1Open, isFoot2Open, toggleFoot1, toggleFoot2 }) => {
                   Whatsapp
                 </a>
               </li>
+              <li>
+                <a
+                  className="block p-3 pl-8 border-b border-brown-Default"
+                  href="mailto:marketing@avaterraliving.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  E-mail
+                </a>
+              </li>
             </ul>
           </div>
         </li>
@@ -152,6 +162,15 @@ const Footer = ({ isFoot1Open, isFoot2Open, toggleFoot1, toggleFoot2 }) => {
                         rel="noreferrer"
                       >
                         Whatsapp
+                      </a>
+                    </li>
+                    <li className="pt-1">
+                      <a
+                        href="mailto:marketing@avaterraliving.com"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        E-mail
                       </a>
                     </li>
                   </ul>
