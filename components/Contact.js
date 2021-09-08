@@ -28,7 +28,7 @@ function Contact() {
         </p>
         <div className="bg-obrown-Default p-px" />
         <p>marketing@avaterraliving.com</p>
-        <p>+62 812 1234 1234</p>
+        <p>+62 812 3113 2288</p>
         <p>Monday to Friday, 9am-5pm.</p>
       </div>
     </div>
