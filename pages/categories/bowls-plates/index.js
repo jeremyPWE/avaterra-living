@@ -94,6 +94,11 @@ function Bowls_plates() {
             toggleCat_cut={toggleCat_cut}
             toggleCat_din={toggleCat_din}
             toggleCat_uten={toggleCat_uten}
+            isCat_boardOpen={isCat_boardOpen}
+            isCat_bowlOpen={isCat_bowlOpen}
+            isCat_cutOpen={isCat_cutOpen}
+            isCat_dinOpen={isCat_dinOpen}
+            isCat_utenOpen={isCat_utenOpen}
           />
           <Item
             isCat_boardOpen={isCat_boardOpen}

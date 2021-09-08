@@ -36,6 +36,16 @@ const Footer = ({ isFoot1Open, isFoot2Open, toggleFoot1, toggleFoot2 }) => {
                   Instagram
                 </a>
               </li>
+              <li>
+                <a
+                  className="block p-3 pl-8 border-b border-brown-Default"
+                  href="https://wa.me/6281234413270?text=Hello%20AvaterraLiving"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Whatsapp
+                </a>
+              </li>
             </ul>
           </div>
         </li>
@@ -133,6 +143,15 @@ const Footer = ({ isFoot1Open, isFoot2Open, toggleFoot1, toggleFoot2 }) => {
                         rel="noreferrer"
                       >
                         Instagram
+                      </a>
+                    </li>
+                    <li className="pt-1">
+                      <a
+                        href="https://wa.me/6281234413270?text=Hello%20AvaterraLiving"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Whatsapp
                       </a>
                     </li>
                   </ul>

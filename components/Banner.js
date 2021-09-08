@@ -12,14 +12,17 @@ function Banner() {
           layout="fill"
         ></Image>
         <div className="absolute top-0 left-0 w-full h-full bg-black-Default rounded-2xl" />
-        <div className="absolute top-0 left-0 w-1/2 md:w-2/5 xl:w-1/3 h-5/6 bg-black-Default m-4 md:m-5 xl:m-7 rounded-2xl p-4 xl:p-8 xl:pr-12 flex-row items-center">
-          <h2 className="text-white-Default md:text-xl xl:text-2xl">
-            <div>Commitment, trust, </div> and passion.
-          </h2>
-          <p className="text-white-Default text-sm xl:text-base md:pt-2 xl:pt-4">
-            Introducing local handicrafts from the hands of the best Indonesian
-            artisans.
-          </p>
+        <div className="absolute top-0 left-0 w-3/5 md:w-1/2 xl:w-1/3 h-5/6 bg-black-Default m-4 md:m-5 xl:m-7 rounded-2xl flex items-center justify-center">
+          <div className="flex flex-col p-2">
+            <h2 className="text-white-Default text-base md:text-xl xl:text-2xl">
+              <div>Commitment, trust,</div>
+              <div>and passion.</div>
+            </h2>
+            <p className="text-white-Default text-sm xl:text-base md:pt-2 xl:pt-4 ">
+              Introducing local handicrafts from the hands of the best
+              Indonesian artisans.
+            </p>
+          </div>
           <div className="flex justify-center">
             <div className="hidden md:block absolute bottom-5 xl:bottom-10">
               <Link href="/categories/bowls-plates">

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Misi() {
   return (
-    <ul className="p-5 xl:pt-10 md:px-32 xl:px-52 2xl:px-96 grid grid-cols-2 text-center gap-5 md:gap-8 xl:gap-16 xl:grid-cols-4">
+    <ul className="p-7 xl:pt-10 md:px-32 xl:px-52 2xl:px-96 grid grid-cols-2 text-center gap-5 md:gap-8 xl:gap-16 xl:grid-cols-4">
       <li>
         <div className="xl:hidden">
           <Image

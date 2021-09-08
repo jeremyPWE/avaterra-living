@@ -49,6 +49,7 @@ function Navbar({ toggle }) {
         </Link>
         <div
           className="p-4 relative cursor-default"
+          onClick={toggleSub}
           onMouseEnter={toggleSub}
           onMouseLeave={toggleSub}
         >

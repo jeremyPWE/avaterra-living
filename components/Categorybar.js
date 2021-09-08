@@ -6,6 +6,11 @@ function Categorybar({
   toggleCat_cut,
   toggleCat_din,
   toggleCat_uten,
+  isCat_boardOpen,
+  isCat_bowlOpen,
+  isCat_cutOpen,
+  isCat_dinOpen,
+  isCat_utenOpen,
 }) {
   return (
     <div>
@@ -16,7 +21,52 @@ function Categorybar({
             onClick={toggleCat}
           >
             Category
-            <div>
+            <div className="flex items-center">
+              <p
+                className={
+                  isCat_bowlOpen
+                    ? "pr-2 font-semibold text-ogreen-Default"
+                    : "hidden"
+                }
+              >
+                Bowls & Plates
+              </p>
+              <p
+                className={
+                  isCat_cutOpen
+                    ? "pr-2 font-semibold text-ogreen-Default"
+                    : "hidden"
+                }
+              >
+                Cutleries
+              </p>
+              <p
+                className={
+                  isCat_utenOpen
+                    ? "pr-2 font-semibold text-ogreen-Default"
+                    : "hidden"
+                }
+              >
+                Utensils
+              </p>
+              <p
+                className={
+                  isCat_dinOpen
+                    ? "pr-2 font-semibold text-ogreen-Default"
+                    : "hidden"
+                }
+              >
+                Dining Essentials
+              </p>
+              <p
+                className={
+                  isCat_boardOpen
+                    ? "pr-2 font-semibold text-ogreen-Default"
+                    : "hidden"
+                }
+              >
+                Boards
+              </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4"
