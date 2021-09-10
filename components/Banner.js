@@ -12,7 +12,7 @@ function Banner() {
           layout="fill"
         ></Image>
         <div className="absolute top-0 left-0 w-full h-full bg-black-Default rounded-2xl" />
-        <div className="absolute top-0 left-0 w-3/5 md:w-1/2 xl:w-1/3 h-5/6 bg-black-Default m-4 md:m-5 xl:m-7 rounded-2xl flex items-center justify-center">
+        <div className="absolute top-0 left-0 w-3/5 md:w-1/2 xl:w-1/3 h-5/6 bg-black-Default m-4 md:m-5 xl:m-7 rounded-2xl flex items-center justify-center md:pb-5 xl:pb-10">
           <div className="flex flex-col p-2">
             <h2 className="text-white-Default text-base md:text-xl xl:text-2xl">
               <div>Commitment, trust,</div>
@@ -23,14 +23,12 @@ function Banner() {
               Indonesian artisans.
             </p>
           </div>
-          <div className="flex justify-center">
-            <div className="hidden md:block absolute bottom-5 xl:bottom-10">
-              <Link href="/categories/bowls-plates">
-                <a className="flex bg-ogreen-Default rounded-lg p-0.5 xl:p-2 mt-5 font-semibold w-28 text-white-Default justify-center">
-                  Learn more
-                </a>
-              </Link>
-            </div>
+          <div className="hidden md:flex justify-center absolute bottom-5 xl:bottom-10">
+            <Link href="/categories/bowls-plates">
+              <a className="flex bg-ogreen-Default rounded-lg p-0.5 xl:p-2 font-semibold w-28 text-white-Default justify-center">
+                Learn more
+              </a>
+            </Link>
           </div>
         </div>
       </div>
