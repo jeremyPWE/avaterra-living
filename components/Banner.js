@@ -13,7 +13,7 @@ function Banner() {
         ></Image>
         <div className="absolute top-0 left-0 w-full h-full bg-black-Default rounded-2xl" />
         <div className="absolute top-0 left-0 w-3/5 md:w-1/2 xl:w-1/3 h-5/6 bg-black-Default m-4 md:m-5 xl:m-7 rounded-2xl flex items-center justify-center md:pb-5 xl:pb-10">
-          <div className="flex flex-col p-2">
+          <div className="flex flex-col p-2 xl:px-7">
             <h2 className="text-white-Default text-base md:text-xl xl:text-2xl">
               <div>Commitment, trust,</div>
               <div>and passion.</div>
